@@ -256,7 +256,7 @@ export const listOrders = () => async (dispatch, getState) => {
         }
 
         const { data } = await axios.get(
-            `/api/orders/`,
+            `https://gadgetzbackend.herokuapp.com/api/orders/`,
             config
         )
 
